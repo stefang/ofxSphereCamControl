@@ -1,0 +1,7 @@
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+bin/
+ofxSphereCamControlExample.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData
