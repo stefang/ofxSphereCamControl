@@ -6,7 +6,7 @@ void testApp::setup(){
     // Setup Camera and Control
     
     sCamControl.setCamRef(&sCam); // This tells the control add on which camera to control if you have more than one
-    sCamControl.setOSC("192.168.1.82", 7000, 7001); // Adjust this to match the iPad ip address and ports in TouchOSC
+    sCamControl.setOSC("192.168.0.104", 7000, 7001); // Adjust this to match the iPad ip address and ports in TouchOSC
     
     sCam.handheld = true;
     

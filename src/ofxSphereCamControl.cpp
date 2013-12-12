@@ -17,6 +17,10 @@ void ofxSphereCamControl::setOSC(string host, int inport, int outport ) {
     receiver.setup(inport);
 }
 
+void ofxSphereCamControl::setScale(float s) {
+    scale = s;
+}
+
 void ofxSphereCamControl::update() {
     
     // Check for incoming from TouchOSC
