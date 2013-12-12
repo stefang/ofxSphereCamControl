@@ -5,3 +5,4 @@ Thumbs.db
 bin/
 *.xcodeproj/project.xcworkspace/xcuserdata
 DerivedData
+ofxSphereCamControlExample/ofxSphereCamControlExample.xcodeproj
